@@ -11,6 +11,10 @@ Basic possibilities:
 
 See the usage example
 
+*Comment
+Tables in ODS and XLSX format (XLS, CSV etc) have different row numbering. 
+In ODS tables row numbering starts with 1, in XLSX it starts with 0.
+
 # XLStoMySQL
 Инструмент для импорта файлов в MySQL
 
@@ -23,3 +27,7 @@ See the usage example
 5. Запуск процедур MySQL, после выполнения импорта.
 
 Смотри пример использования
+
+*Замечание
+В таблицах в формате ODS и XLSX (XLS, CSV etc) отличается нумерация строк. 
+Для таблиц ODS нумерация строк начинается с 1, в XLSX с 0.
