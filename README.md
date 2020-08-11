@@ -9,6 +9,8 @@ Basic possibilities:
 4. Checking data from the file to match the data template (class DataTest)
 5. Running MySQL procedures after performing the import.
 
+See the usage example
+
 # XLStoMySQL
 Инструмент для импорта файлов в MySQL
 
@@ -19,3 +21,5 @@ Basic possibilities:
 3. Работа с БОЛЬШИМИ таблицами (файлы с сотнями тысяч строк и десятками столбцов, упирается лишь в объем выделенной памяти для PHP)
 4. Проверка данных из файла на соответствие шаблону данных (class DataTest)
 5. Запуск процедур MySQL, после выполнения импорта.
+
+Смотри пример использования
