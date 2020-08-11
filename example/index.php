@@ -29,9 +29,8 @@ if(ini_set('display_errors', 1)===false)
 require 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
-require 'functions.php';
-require_once 'connection.php';
 require_once 'xlstomysql.class.php';
+require 'functions.php';
 
 $MW = new MySQLWork(HOST, USER, PASSWORD, DATABASE);
 
